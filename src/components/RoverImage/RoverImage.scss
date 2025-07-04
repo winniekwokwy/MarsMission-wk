@@ -1,0 +1,15 @@
+.Image{
+    width: 800px;
+}
+
+@media (max-width: 770px) {
+    .Image {
+        width: 600px;
+    }
+}
+
+@media (max-width: 430px) {
+    .Image {
+        width: 400px;
+    }
+}

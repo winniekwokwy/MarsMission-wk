@@ -1,0 +1,46 @@
+
+#QuizBgImage {
+    background-size: auto; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+    position: absolute; /* Ensures it covers the entire screen */
+    z-index: -1; /* Sends it behind other elements */
+    left:0px;
+  }
+  
+  #QuizSubtitle {
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px 0 10px;
+    color: whitesmoke;
+  }
+  
+  #QuizTitle{
+    margin: 0 auto;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px 0 10px;
+    color: whitesmoke;
+  }
+
+  .Questions{
+    color: black;
+  }
+  
+  @media (max-width: 770px) {
+    #Title1 {
+        font-size: 25px;
+    }
+  }
+  
+  @media (max-width: 430px) {
+    #Title1 {
+        font-size: 20px;
+        padding: 0 0 10px;
+    }
+  }
+  
+  

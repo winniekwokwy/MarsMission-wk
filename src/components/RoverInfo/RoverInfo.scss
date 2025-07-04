@@ -1,0 +1,41 @@
+.RoverInfo{
+    font-family: Martian mono, monospace;
+    text-align: center;
+    display: flexbox;
+}
+
+.Header{
+    font-weight: bold;
+}
+
+.Info{
+    text-align: center;
+}
+
+.RoverName{
+    font-size: 30px;
+    margin: 10px 0;
+}
+
+Table{
+    font-size:25px;
+    color: black;
+}
+
+@media (max-width: 770px) {
+    .RoverName {
+        font-size: 25px;
+    }
+    Table{
+        font-size:20px;
+    }
+}
+
+@media (max-width: 430px) {
+    .RoverName {
+        font-size: 20px;
+    }
+    Table{
+        font-size:15px;
+    }
+}

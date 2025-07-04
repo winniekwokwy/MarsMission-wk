@@ -1,0 +1,27 @@
+
+  #BackgroundImage {
+    /*background-image: url('../../assets/mars.jpg');  Path to your image */
+    background-size: auto; /* Ensures the image covers the entire element */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    width: 100%; /* Full width */
+    height: 100vh; /* Full viewport height */
+    position: absolute; /* Ensures it covers the entire screen */
+    z-index: -1; /* Sends it behind other elements */
+    left:0px;
+  }
+  
+  @media (orientation: portrait) {
+    #BackgroundImage {
+      width:100%; 
+      background-image: url('../../assets/mars-portrait.jpg');
+    }
+  }
+  
+  @media (orientation: landscape) {
+    #BackgroundImage {
+      height: 100%;
+      background-image: url('../../assets/mars-landscape.jpg');
+    }
+  }
+  
