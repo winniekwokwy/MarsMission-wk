@@ -74,8 +74,6 @@ const MenuItemLinks = styled(Link)`
 
 const Sidebar: React.FunctionComponent = () => {
     const [close, setClose] = useState("false");
-    //const showSidebar = () => setClose(!close);
-    console.log(`close: ${close}`);
     const showSidebar = () => {
         if (close==="false"){
             setClose("true");
@@ -113,4 +111,4 @@ const Sidebar: React.FunctionComponent = () => {
     )
 }
 
-export default Sidebar
+export default Sidebar;

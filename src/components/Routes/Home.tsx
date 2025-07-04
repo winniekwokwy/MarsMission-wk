@@ -1,5 +1,4 @@
 import React from 'react'
-import styled from 'styled-components';
 import RoverInfo from '../RoverInfo/RoverInfo';
 import { useState } from 'react';
 import RoverImage from '../RoverImage/RoverImage';
