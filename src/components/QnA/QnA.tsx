@@ -74,33 +74,33 @@ function QnA () {
     if (!isCompleted) {
     return (
         <div>
-                        <div className="Question">
-                            <p>{count}. {MarsQuiz[currentQuestion].question}</p>
-                            <br/>
-                          <div className='answer'>
-                            {MarsQuiz[currentQuestion].options.map((answerOption: string, optionIndex: number) => (
-                                <li list-style-type="none" key={`li-${optionIndex}`}>
-                                <label key={`label-${optionIndex}`}>
-                                <input type="radio" name={`question-${currentQuestion}`} id={`answerOption-${optionIndex}`} onChange={() => setSelectedAnswer(answerOption)} />
-                                    {answerOption}
-                              </label>
-                              </li>
-                            ))}
-                          </div>
-                        </div>
-                      <br/>
-                      <button onClick={handleSubmitButtonClick} className="submit-button">
-                        Submit
-                    </button>
-                    <div className='CorrectAnswer'>
-                        <br/>
-                        {isVisible && <p>{message} </p>}
-                        {isVisible && !isCorrect && <p>Correct Answer is: {MarsQuiz[currentQuestion].answer} </p>}
-                        {isVisible && <p>Explanation : {MarsQuiz[currentQuestion].explanation}</p>}
-                        {isVisible && <button onClick={handleNextButtonClick} className="next-button">
-                            Next
-                        </button>}
-                    </div>
+            <div className="Question">
+                <p>{count}. {MarsQuiz[currentQuestion].question}</p>
+                <br/>
+                <div className='answer'>
+                {MarsQuiz[currentQuestion].options.map((answerOption: string, optionIndex: number) => (
+                    <li list-style-type="none" key={`li-${optionIndex}`}>
+                    <label key={`label-${optionIndex}`}>
+                    <input type="radio" name={`question-${currentQuestion}`} id={`answerOption-${optionIndex}`} onChange={() => setSelectedAnswer(answerOption)} />
+                        {answerOption}
+                    </label>
+                    </li>
+                ))}
+                </div>
+                <br/>
+            </div>
+            <button onClick={handleSubmitButtonClick} className="submit-button">
+            Submit
+            </button>
+            <div className='CorrectAnswer'>
+                <br/>
+                {isVisible && <p>{message} </p>}
+                {isVisible && !isCorrect && <p>Correct Answer is: {MarsQuiz[currentQuestion].answer} </p>}
+                {isVisible && <p>Explanation : {MarsQuiz[currentQuestion].explanation}</p>}
+                {isVisible && <button onClick={handleNextButtonClick} className="next-button">
+                    Next
+                </button>}
+            </div>
         </div>
     );
 }
