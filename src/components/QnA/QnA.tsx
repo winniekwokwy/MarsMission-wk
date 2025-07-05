@@ -99,9 +99,10 @@ const QnA: React.FC<QuestionProps> = (props: QuestionProps) => {
     return (
         <div>
             <div className="Question">
+                <br/>
                 <p>{count}. {props.Questions[currentQuestion].Question}</p>
                 <br/>
-                <div className='answer'>
+                <div className='Answer'>
                 {props.Questions[currentQuestion].Options.map((answerOption: string, optionIndex: number) => (
                     <li list-style-type="none" key={`li-${optionIndex}`}>
                     <label key={`label-${optionIndex}`}>

@@ -2,7 +2,7 @@ import React from 'react'
 import RoverInfo from '../RoverInfo/RoverInfo';
 import { useState } from 'react';
 import RoverImage from '../RoverImage/RoverImage';
-import './Home.scss';
+//import './Home.scss';
 import '../../App.css';
 
 type ROVERS = "curiosity" | "opportunity" | "spirit";
@@ -48,7 +48,7 @@ export async function APIRequest<T>(api: string): Promise<T | null> {
 
 const Home: React.FunctionComponent = () => {
     const camera = CAMERAS.ALL;
-    
+
     return (
         <>
         <p id="Title">Mars Mission</p>
