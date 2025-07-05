@@ -47,7 +47,8 @@ export async function APIRequest<T>(api: string): Promise<T | null> {
 }
 
 const Home: React.FunctionComponent = () => {
-    const [camera, setCamera] = useState(CAMERAS.ALL);
+    const camera = CAMERAS.ALL;
+    
     return (
         <>
         <p id="Title">Mars Mission</p>
