@@ -1,277 +1,277 @@
 [
   {
-    "question": "What is Mars commonly known as?",
-    "options": [
+    "Question": "What is Mars commonly known as?",
+    "Options": [
       " 1. The Blue Planet",
       " 2. The Gas Giant",
       " 3. The Red Planet",
       " 4. The Ringed Planet"
     ],
-    "answer": "3. The Red Planet",
-    "explanation": "Mars looks red because its surface is covered in iron oxide, or rust, which gives it a reddish color."
+    "Answer": "3. The Red Planet",
+    "Explanation": "Mars looks red because its surface is covered in iron oxide, or rust, which gives it a reddish color."
   },
   {
-    "question": "How many moons does Mars have?",
-    "options": [
+    "Question": "How many moons does Mars have?",
+    "Options": [
       " 1. 0",
       " 2. 2",
       " 3. 4",
       " 4. 1"
     ],
-    "answer": "2. 2",
-    "explanation": "Mars has two small, potato-shaped moons: Phobos and Deimos, named after the sons of the Greek god Ares."
+    "Answer": "2. 2",
+    "Explanation": "Mars has two small, potato-shaped moons: Phobos and Deimos, named after the sons of the Greek god Ares."
   },
   {
-    "question": "What kind of weather can happen on Mars?",
-    "options": [
+    "Question": "What kind of weather can happen on Mars?",
+    "Options": [
       " 1. Thunderstorms",
       " 2. Hurricanes",
       " 3. Dust storms",
       " 4. Snowstorms"
     ],
-    "answer": "3. Dust storms",
-    "explanation": "Mars experiences huge dust storms\u2014sometimes big enough to cover the entire planet!"
+    "Answer": "3. Dust storms",
+    "Explanation": "Mars experiences huge dust storms\u2014sometimes big enough to cover the entire planet!"
   },
   {
-    "question": "Which robot was sent to explore Mars in 2021?",
-    "options": [
+    "Question": "Which robot was sent to explore Mars in 2021?",
+    "Options": [
       " 1. Curiosity",
       " 2. Spirit",
       " 3. Perseverance",
       " 4. Opportunity"
     ],
-    "answer": "3. Perseverance",
-    "explanation": "Perseverance landed in February 2021 to search for signs of ancient life and collect rock samples."
+    "Answer": "3. Perseverance",
+    "Explanation": "Perseverance landed in February 2021 to search for signs of ancient life and collect rock samples."
   },
   {
-    "question": "What is Mars\u2019s atmosphere mostly made of?",
-    "options": [
+    "Question": "What is Mars\u2019s atmosphere mostly made of?",
+    "Options": [
       " 1. Oxygen",
       " 2. Nitrogen",
       " 3. Carbon Dioxide",
       " 4. Hydrogen"
     ],
-    "answer": "3. Carbon Dioxide",
-    "explanation": "About 95% of Mars' atmosphere is carbon dioxide, which is why humans can't breathe the air."
+    "Answer": "3. Carbon Dioxide",
+    "Explanation": "About 95% of Mars' atmosphere is carbon dioxide, which is why humans can't breathe the air."
   },
   {
-    "question": "Can liquid water currently be found on the surface of Mars?",
-    "options": [
+    "Question": "Can liquid water currently be found on the surface of Mars?",
+    "Options": [
       " 1. Yes, oceans everywhere",
       " 2. Only in craters",
       " 3. No, only ice",
       " 4. Yes, in rivers"
     ],
-    "answer": "3. No, only ice",
-    "explanation": "The surface is too cold and the air pressure too low for liquid water, but ice exists at the poles and underground."
+    "Answer": "3. No, only ice",
+    "Explanation": "The surface is too cold and the air pressure too low for liquid water, but ice exists at the poles and underground."
   },
   {
-    "question": "Which of these is a mountain on Mars?",
-    "options": [
+    "Question": "Which of these is a mountain on Mars?",
+    "Options": [
       " 1. Mount Sharp",
       " 2. Mount Redrock",
       " 3. Olympus Mons",
       " 4. Mount Gale"
     ],
-    "answer": "3. Olympus Mons",
-    "explanation": "Olympus Mons is the tallest volcano in the solar system\u2014nearly 3 times taller than Mount Everest!"
+    "Answer": "3. Olympus Mons",
+    "Explanation": "Olympus Mons is the tallest volcano in the solar system\u2014nearly 3 times taller than Mount Everest!"
   },
   {
-    "question": "Why is Mars colder than Earth?",
-    "options": [
+    "Question": "Why is Mars colder than Earth?",
+    "Options": [
       " 1. It has no core",
       " 2. It has no sun",
       " 3. It's farther from the Sun",
       " 4. It has more gravity"
     ],
-    "answer": "3. It's farther from the Sun",
-    "explanation": "Mars is the fourth planet from the Sun, so it gets less sunlight and heat than Earth."
+    "Answer": "3. It's farther from the Sun",
+    "Explanation": "Mars is the fourth planet from the Sun, so it gets less sunlight and heat than Earth."
   },
   {
-    "question": "How long does it take Mars to orbit the Sun once?",
-    "options": [
+    "Question": "How long does it take Mars to orbit the Sun once?",
+    "Options": [
       " 1. 88 days",
       " 2. 180 days",
       " 3. 365 days",
       " 4. 687 days"
     ],
-    "answer": "4. 687 days",
-    "explanation": "A year on Mars is almost twice as long as an Earth year because it takes longer to go around the Sun."
+    "Answer": "4. 687 days",
+    "Explanation": "A year on Mars is almost twice as long as an Earth year because it takes longer to go around the Sun."
   },
   {
-    "question": "What color is the Martian sky during the day?",
-    "options": [
+    "Question": "What color is the Martian sky during the day?",
+    "Options": [
       " 1. Blue",
       " 2. Red",
       " 3. Pinkish-orange",
       " 4. Green"
     ],
-    "answer": "3. Pinkish-orange",
-    "explanation": "The dust in Mars\u2019 thin atmosphere scatters sunlight differently, making the sky look pink or orange during the day."
+    "Answer": "3. Pinkish-orange",
+    "Explanation": "The dust in Mars\u2019 thin atmosphere scatters sunlight differently, making the sky look pink or orange during the day."
   },
   {
-    "question": "What is the gravity on Mars compared to Earth?",
-    "options": [
+    "Question": "What is the gravity on Mars compared to Earth?",
+    "Options": [
       " 1. The same",
       " 2. Half as strong",
       " 3. About one-third",
       " 4. Twice as strong"
     ],
-    "answer": "3. About one-third",
-    "explanation": "Mars has less mass than Earth, so gravity is weaker\u2014you\u2019d weigh much less on Mars!"
+    "Answer": "3. About one-third",
+    "Explanation": "Mars has less mass than Earth, so gravity is weaker\u2014you\u2019d weigh much less on Mars!"
   },
   {
-    "question": "What color is Mars' surface?",
-    "options": [
+    "Question": "What color is Mars' surface?",
+    "Options": [
       " 1. Blue",
       " 2. Red-orange",
       " 3. Green",
       " 4. Gray"
     ],
-    "answer": "2. Red-orange",
-    "explanation": "The surface contains iron-rich minerals that oxidize (rust), giving Mars its famous red-orange look."
+    "Answer": "2. Red-orange",
+    "Explanation": "The surface contains iron-rich minerals that oxidize (rust), giving Mars its famous red-orange look."
   },
   {
-    "question": "Which planet is closest to Mars?",
-    "options": [
+    "Question": "Which planet is closest to Mars?",
+    "Options": [
       " 1. Earth",
       " 2. Jupiter",
       " 3. Venus",
       " 4. Saturn"
     ],
-    "answer": "1. Earth",
-    "explanation": "Mars orbits just one step farther from the Sun than Earth does\u2014it's our cosmic neighbor."
+    "Answer": "1. Earth",
+    "Explanation": "Mars orbits just one step farther from the Sun than Earth does\u2014it's our cosmic neighbor."
   },
   {
-    "question": "Does Mars have rings like Saturn?",
-    "options": [
+    "Question": "Does Mars have rings like Saturn?",
+    "Options": [
       " 1. Yes",
       " 2. No",
       " 3. Only during storms",
       " 4. They disappeared"
     ],
-    "answer": "2. No",
-    "explanation": "Mars doesn't have rings, but scientists think its moon Phobos might break apart one day and form a ring."
+    "Answer": "2. No",
+    "Explanation": "Mars doesn't have rings, but scientists think its moon Phobos might break apart one day and form a ring."
   },
   {
-    "question": "Which rover first found evidence of water on Mars?",
-    "options": [
+    "Question": "Which rover first found evidence of water on Mars?",
+    "Options": [
       " 1. Perseverance",
       " 2. Pathfinder",
       " 3. Spirit",
       " 4. Sojourner"
     ],
-    "answer": "3. Spirit",
-    "explanation": "The Spirit rover found rocks that had been changed by water, proving water once flowed on Mars."
+    "Answer": "3. Spirit",
+    "Explanation": "The Spirit rover found rocks that had been changed by water, proving water once flowed on Mars."
   },
   {
-    "question": "What time is best for launching missions to Mars?",
-    "options": [
+    "Question": "What time is best for launching missions to Mars?",
+    "Options": [
       " 1. When Mars is closest to Earth",
       " 2. During Mars winter",
       " 3. At midnight",
       " 4. On a full moon"
     ],
-    "answer": "1. When Mars is closest to Earth",
-    "explanation": "Missions are launched during opposition when Mars is closest to Earth, saving fuel and time."
+    "Answer": "1. When Mars is closest to Earth",
+    "Explanation": "Missions are launched during opposition when Mars is closest to Earth, saving fuel and time."
   },
   {
-    "question": "How long does a day on Mars last?",
-    "options": [
+    "Question": "How long does a day on Mars last?",
+    "Options": [
       " 1. 12 hours",
       " 2. 24 hours",
       " 3. About 24.6 hours",
       " 4. 48 hours"
     ],
-    "answer": "3. About 24.6 hours",
-    "explanation": "A 'sol' (Martian day) is only about 40 minutes longer than an Earth day\u2014almost the same!"
+    "Answer": "3. About 24.6 hours",
+    "Explanation": "A 'sol' (Martian day) is only about 40 minutes longer than an Earth day\u2014almost the same!"
   },
   {
-    "question": "Can people breathe the air on Mars?",
-    "options": [
+    "Question": "Can people breathe the air on Mars?",
+    "Options": [
       " 1. Yes",
       " 2. Only in caves",
       " 3. No",
       " 4. Only in summer"
     ],
-    "answer": "3. No",
-    "explanation": "Mars' air is mostly carbon dioxide, with almost no oxygen, so we\u2019d need spacesuits or habitats."
+    "Answer": "3. No",
+    "Explanation": "Mars' air is mostly carbon dioxide, with almost no oxygen, so we\u2019d need spacesuits or habitats."
   },
   {
-    "question": "What's the name of the largest canyon system on Mars?",
-    "options": [
+    "Question": "What's the name of the largest canyon system on Mars?",
+    "Options": [
       " 1. Mariner Valley",
       " 2. Red Rift",
       " 3. Olympus Trench",
       " 4. Martian Ditch"
     ],
-    "answer": "1. Mariner Valley",
-    "explanation": "Also called Valles Marineris, it's over 4,000 km long, making it one of the biggest canyons in the solar system."
+    "Answer": "1. Mariner Valley",
+    "Explanation": "Also called Valles Marineris, it's over 4,000 km long, making it one of the biggest canyons in the solar system."
   },
   {
-    "question": "What powers the Mars rovers?",
-    "options": [
+    "Question": "What powers the Mars rovers?",
+    "Options": [
       " 1. Gasoline",
       " 2. Solar panels or nuclear batteries",
       " 3. Wind",
       " 4. Rocket fuel"
     ],
-    "answer": "2. Solar panels or nuclear batteries",
-    "explanation": "Rovers like Spirit used solar energy, while Perseverance uses a nuclear power system called RTG."
+    "Answer": "2. Solar panels or nuclear batteries",
+    "Explanation": "Rovers like Spirit used solar energy, while Perseverance uses a nuclear power system called RTG."
   },
   {
-    "question": "Which country launched the first successful Mars mission?",
-    "options": [
+    "Question": "Which country launched the first successful Mars mission?",
+    "Options": [
       " 1. China",
       " 2. USA",
       " 3. Russia",
       " 4. India"
     ],
-    "answer": "2. USA",
-    "explanation": "NASA\u2019s Mariner 4 flew by Mars in 1965, taking the first close-up photos of the Martian surface."
+    "Answer": "2. USA",
+    "Explanation": "NASA\u2019s Mariner 4 flew by Mars in 1965, taking the first close-up photos of the Martian surface."
   },
   {
-    "question": "What does the Mars rover Curiosity carry to study rocks?",
-    "options": [
+    "Question": "What does the Mars rover Curiosity carry to study rocks?",
+    "Options": [
       " 1. A shovel",
       " 2. A hammer",
       " 3. A laser",
       " 4. A camera only"
     ],
-    "answer": "3. A laser",
-    "explanation": "Curiosity uses a laser called ChemCam to vaporize rock surfaces and study what they're made of."
+    "Answer": "3. A laser",
+    "Explanation": "Curiosity uses a laser called ChemCam to vaporize rock surfaces and study what they're made of."
   },
   {
-    "question": "What is the name of Mars\u2019 largest moon?",
-    "options": [
+    "Question": "What is the name of Mars\u2019 largest moon?",
+    "Options": [
       " 1. Deimos",
       " 2. Luna",
       " 3. Phobos",
       " 4. Titan"
     ],
-    "answer": "3. Phobos",
-    "explanation": "Phobos is larger and closer to Mars than Deimos, and it orbits Mars very quickly\u2014three times a day!"
+    "Answer": "3. Phobos",
+    "Explanation": "Phobos is larger and closer to Mars than Deimos, and it orbits Mars very quickly\u2014three times a day!"
   },
   {
-    "question": "Has any human ever been to Mars?",
-    "options": [
+    "Question": "Has any human ever been to Mars?",
+    "Options": [
       " 1. Yes, in 2022",
       " 2. Not yet",
       " 3. Only once",
       " 4. Yes, several times"
     ],
-    "answer": "2. Not yet",
-    "explanation": "Humans haven\u2019t reached Mars yet, but NASA and SpaceX are working on missions that could launch in the 2030s."
+    "Answer": "2. Not yet",
+    "Explanation": "Humans haven\u2019t reached Mars yet, but NASA and SpaceX are working on missions that could launch in the 2030s."
   },
   {
-    "question": "What makes Martian sunsets glow blue?",
-    "options": [
+    "Question": "What makes Martian sunsets glow blue?",
+    "Options": [
       " 1. They\u2019re green",
       " 2. They last only seconds",
       " 3. They glow blue",
       " 4. They don\u2019t happen"
     ],
-    "answer": "3. They glow blue",
-    "explanation": "The fine dust in Mars\u2019 atmosphere scatters sunlight differently, making sunsets appear blue instead of red like on Earth."
+    "Answer": "3. They glow blue",
+    "Explanation": "The fine dust in Mars\u2019 atmosphere scatters sunlight differently, making sunsets appear blue instead of red like on Earth."
   }
 ]

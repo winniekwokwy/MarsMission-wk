@@ -1,12 +1,22 @@
 import { useEffect, useState } from 'react';
 import '../../App.css';
-import MarsQuiz from '../../assets/mars_quiz.json';
 import './QnA.scss'
 
 const NoOfQuestions: number = 10;
 const PassingMark: number = 7;
 
-function QnA () {
+type Question = {
+    Question: string,
+    Options: string[],
+    Answer: string,
+    Explanation: string
+}
+
+interface QuestionProps {
+   Questions : Question[];
+};
+
+const QnA: React.FC<QuestionProps> = (props: QuestionProps) => {
     const [currentQuestion, setCurrentQuestion] = useState(0);
     const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null); // Track the selected answer
     const [score, setScore] = useState(0);
@@ -18,7 +28,7 @@ function QnA () {
     const [QuestionNo, setQuestionNo] = useState<number[]>([0]);
 
     const handleSubmitButtonClick: () => void = () => {
-        if (selectedAnswer?.trim() === MarsQuiz[currentQuestion].answer){
+        if (selectedAnswer?.trim() === props.Questions[currentQuestion].Answer){
             setScore(score+1);
             setMessage("Your answer is correct!");
             setIsCorrect(true);
@@ -75,10 +85,10 @@ function QnA () {
     return (
         <div>
             <div className="Question">
-                <p>{count}. {MarsQuiz[currentQuestion].question}</p>
+                <p>{count}. {props.Questions[currentQuestion].Question}</p>
                 <br/>
                 <div className='answer'>
-                {MarsQuiz[currentQuestion].options.map((answerOption: string, optionIndex: number) => (
+                {props.Questions[currentQuestion].Options.map((answerOption: string, optionIndex: number) => (
                     <li list-style-type="none" key={`li-${optionIndex}`}>
                     <label key={`label-${optionIndex}`}>
                     <input type="radio" name={`question-${currentQuestion}`} id={`answerOption-${optionIndex}`} onChange={() => setSelectedAnswer(answerOption)} />
@@ -95,8 +105,9 @@ function QnA () {
             <div className='CorrectAnswer'>
                 <br/>
                 {isVisible && <p>{message} </p>}
-                {isVisible && !isCorrect && <p>Correct Answer is: {MarsQuiz[currentQuestion].answer} </p>}
-                {isVisible && <p>Explanation : {MarsQuiz[currentQuestion].explanation}</p>}
+                {isVisible && !isCorrect && <p>Correct Answer is: {props.Questions[currentQuestion].Answer} </p>}
+                {isVisible && <p>Explanation : {props.Questions[currentQuestion].Explanation}</p>}
+                <br/>
                 {isVisible && <button onClick={handleNextButtonClick} className="next-button">
                     Next
                 </button>}
