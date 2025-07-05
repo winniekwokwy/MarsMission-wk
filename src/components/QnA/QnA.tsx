@@ -17,15 +17,16 @@ interface QuestionProps {
 };
 
 const QnA: React.FC<QuestionProps> = (props: QuestionProps) => {
-    const [currentQuestion, setCurrentQuestion] = useState(0);
-    const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null); // Track the selected answer
+    const firstQuestion = Math.floor(Math.random() * NoOfQuestions);
+    const [QuestionNo, setQuestionNo] = useState<number[]>([firstQuestion]);
+    const [currentQuestion, setCurrentQuestion] = useState(firstQuestion);
+    const [selectedAnswer, setSelectedAnswer] = useState<string | null>(null);
     const [score, setScore] = useState(0);
     const [message, setMessage] = useState("");
     const [isVisible, setIsVisible] = useState(false);
     const [isCompleted, setIsCompleted] = useState(false);
     const [isCorrect, setIsCorrect] = useState(false);
     const [count, setCount] = useState(1);
-    const [QuestionNo, setQuestionNo] = useState<number[]>([0]);
 
     const handleSubmitButtonClick: () => void = () => {
         if (selectedAnswer?.trim() === props.Questions[currentQuestion].Answer){
@@ -61,6 +62,19 @@ const QnA: React.FC<QuestionProps> = (props: QuestionProps) => {
         setCurrentQuestion(nextQuestion);
         resetStatus();
         setCount(count+1);
+    };
+
+    const handleTryAgainButtonClick: () => void = () => {
+        const firstQuestion = Math.floor(Math.random() * NoOfQuestions);
+        setQuestionNo([firstQuestion]);
+        setCurrentQuestion(firstQuestion);
+        setCount(1);
+        setSelectedAnswer(null);
+        setScore(0);
+        setMessage("");
+        setIsVisible(false);
+        setIsCompleted(false);
+        setIsCorrect(false);
     };
 
     function resetRadio() {
@@ -122,6 +136,10 @@ else {
             <h3>Your result is {score}/{NoOfQuestions}! {message}</h3>
             <br/>
             <h3>Thank you for your participation!</h3>
+            <br/>
+            <button onClick={handleTryAgainButtonClick} className="submit-button">
+            Try Again
+            </button>
         </div>
     );
 }
